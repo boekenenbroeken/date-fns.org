@@ -1,6 +1,6 @@
 {
   "projects": {
-    "production": "libretype",
-    "staging": "libretype-staging"
+    "production": "date-fns",
+    "staging": "date-fns-staging"
   }
 }
