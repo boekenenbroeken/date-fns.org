@@ -1,0 +1,43 @@
+@import 'reset.css';
+@import '#app/UI/imports';
+
+button {
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  color: var(--color-text);
+  background: var(--color-background-layout);
+}
+
+body,
+textarea {
+  font-family: system-ui;
+}
+
+svg {
+  fill: currentColor;
+}
+
+body:global(.development) undefined {
+  display: block;
+  border: 1px solid magenta;
+}
+
+:global(#ui) {
+  height: 100%;
+}

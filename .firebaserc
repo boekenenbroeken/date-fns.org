@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "libretype",
+    "staging": "libretype-staging"
+  }
+}

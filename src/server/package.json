@@ -1,0 +1,30 @@
+{
+  "name": "date-fns-org-server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./server/index.js",
+  "engines": {
+    "node": "6"
+  },
+  "dependencies": {
+    "firebase-functions": "2.1.0",
+    "cors": "2.8.4",
+    "firebase-admin": "6.2.0",
+    "preact-render-to-string": "4.1.0",
+    "preact": "8.3.1",
+    "decss": "0.8.0",
+    "source-map-support": "0.5.9",
+    "enso": "0.5.1",
+    "lodash": "4.17.11",
+    "node-fetch": "2.3.0",
+    "pluralize": "7.0.0",
+    "firebase": "5.5.9",
+    "unifetch": "0.2.1",
+    "js-md5": "0.7.3",
+    "@types/js-cookie": "2.2.0",
+    "js-cookie": "2.2.0",
+    "cookie-parser": "1.4.3",
+    "@types/cookie-parser": "1.4.1",
+    "defile": "0.1.0"
+  }
+}

@@ -1,0 +1,33 @@
+@import '#GECK/UI/imports';
+
+:root {
+  --color-brand: #8c1b54;
+  --color-brand-hover: #0064c1;
+  --color-ink: #4a3142;
+  --color-text-secondary: #770c56;
+  --color-background-content: #fffdfa;
+  /* --color-background-content-hover: #4a4563; */
+  --color-background-content-secondary: #fffbf5;
+  /* --color-background-content-secondary-hover: #313138;  */
+  --color-background-layout: #e4e4dd;
+  --color-background-note: #fff8b9;
+  --color-link: #862d5b;
+  --color-link-hover: #bf2b78;
+
+  /* Button */
+  --Button-border-radius: 3px;
+  /* Brand color */
+  /* --Button-color-brand-background: #54434b;
+  --Button-color-brand-background-hover: #cc0056;
+  --Button-color-brand-transparent-border: #54434b;
+  --Button-color-brand-transparent-border-hover: #cc0056;
+  --Button-color-brand-transparent-border-active: #54434b;
+  --Button-color-brand-transparent-color: var(--color-ink);
+  --Button-color-brand-transparent-color-hover: var(--color-ink);
+  --Button-color-brand-transparent-color-active: var(--color-ink);
+  --Button-color-brand-transparent-background-hover: #cc0056;
+  --Button-color-brand-transparent-background-active: #54434b;*/
+  /* Positive color */
+  /* --Button-color-positive-transparent-border: #346b4c;
+  --Button-color-positive-transparent-color: #d7f7e5;  */
+}

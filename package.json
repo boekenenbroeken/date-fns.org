@@ -1,0 +1,38 @@
+{
+  "name": "date-fns-org",
+  "version": "0.1.0",
+  "repository": "https://github.com/date-fns/date-fns.org",
+  "contributors": [
+    "Sasha Koss <koss@nocorp.me>",
+    "Lesha Koss <regiusprod@gmail.com>"
+  ],
+  "private": true,
+  "engines": {
+    "node": "6"
+  },
+  "dependencies": {
+    "GECK": "file:./GECK/package",
+    "date-fns-org-server": "file:./src/server"
+  },
+  "GECK": [
+    {
+      "name": "web",
+      "target": "web",
+      "entry": "./src/web/index.ts",
+      "config": "./src/config/index.ts",
+      "template": "./src/web/template.ejs",
+      "public": "./src/public",
+      "port": 4999
+    },
+    {
+      "name": "server",
+      "target": "functions",
+      "entry": "./src/server/index.tsx",
+      "config": "./src/config/index.ts"
+    }
+  ],
+  "browserslist": [
+    "defaults",
+    "not IE > 0"
+  ]
+}

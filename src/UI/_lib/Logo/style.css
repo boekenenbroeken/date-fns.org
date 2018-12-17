@@ -1,0 +1,27 @@
+@import '#app/UI/imports';
+
+.Wrapper > svg {
+  width: auto;
+  height: 100%;
+}
+
+.Wrapper,
+.Wrapper-size-medium {
+  height: var(--size-symbol-medium);
+}
+
+.Wrapper-size-xsmall {
+  height: var(--size-symbol-xsmall);
+}
+
+.Wrapper-size-small {
+  height: var(--size-symbol-small);
+}
+
+.Wrapper-size-large {
+  height: var(--size-symbol-large);
+}
+
+.Wrapper-size-xlarge {
+  height: var(--size-symbol-xlarge);
+}

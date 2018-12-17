@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#app/*": ["src/*"],
+      "#GECK/*": ["GECK/*"],
+      "terser-webpack-plugin": ["./GECK/types/terser-webpack-plugin.d.ts"]
+    },
+    "jsx": "react",
+    "jsxFactory": "h",
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es2017"],
+    "allowJs": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "outDir": "build",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types", "./GECK/types"]
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
